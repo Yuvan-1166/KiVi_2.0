@@ -1,0 +1,17 @@
+[project]
+name = "kivi-2-0"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "click>=8.1.7",
+    "rich>=13.9.4",
+    "sentencepiece>=0.2.0",
+    "tamil-wiki",
+]
+
+[tool.uv.sources]
+tamil-wiki = { path = "./dataset/tamil_wiki" }
+
