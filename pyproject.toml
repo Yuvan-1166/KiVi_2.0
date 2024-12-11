@@ -9,9 +9,4 @@ dependencies = [
     "click>=8.1.7",
     "rich>=13.9.4",
     "sentencepiece>=0.2.0",
-    "tamil-wiki",
 ]
-
-[tool.uv.sources]
-tamil-wiki = { path = "./dataset/tamil_wiki" }
-
